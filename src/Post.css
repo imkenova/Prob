@@ -1,0 +1,39 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post-date {
+    flex-grow: 1;
+    justify-content: left;
+}
+
+.post-btns {
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.post-btns * {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.done {
+    font-size: 22px;
+}
+
+.done:first-child {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 30vh;
+}

@@ -1,0 +1,30 @@
+.card {
+    cursor: pointer;
+    margin-left: 20px;
+    max-height: 76px;
+    max-width: 200px;
+}
+
+.card-content {
+    padding: 10px !important;
+}
+
+.card:hover{
+    box-shadow: 0 0 7px #000000;
+}
+
+
+.subjects-band {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+    overflow-x: scroll;
+    padding-right: 10px;
+    overflow-y: hidden;
+    padding-bottom: 3px;
+}
+
+.active {
+    font-weight: bold;
+}

@@ -6,4 +6,3 @@ it('renders welcome message', () => {
   render(<App />);
   expect(screen.getByText('Выберите категорию')).toBeInTheDocument();
 });
-
